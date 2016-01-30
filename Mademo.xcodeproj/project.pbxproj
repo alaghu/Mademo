@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		173DE7391C5D3EDF001AFA8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173DE7381C5D3EDF001AFA8C /* AppDelegate.swift */; };
+		173DE73B1C5D3EDF001AFA8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173DE73A1C5D3EDF001AFA8C /* ViewController.swift */; };
+		173DE73E1C5D3EDF001AFA8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 173DE73C1C5D3EDF001AFA8C /* Main.storyboard */; };
+		173DE7401C5D3EDF001AFA8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 173DE73F1C5D3EDF001AFA8C /* Assets.xcassets */; };
+		173DE7431C5D3EDF001AFA8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 173DE7411C5D3EDF001AFA8C /* LaunchScreen.storyboard */; };
+		173DE74E1C5D3EDF001AFA8C /* MademoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173DE74D1C5D3EDF001AFA8C /* MademoTests.swift */; };
+		173DE7591C5D3EDF001AFA8C /* MademoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173DE7581C5D3EDF001AFA8C /* MademoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		173DE74A1C5D3EDF001AFA8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 173DE72D1C5D3EDF001AFA8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 173DE7341C5D3EDF001AFA8C;
+			remoteInfo = Mademo;
+		};
+		173DE7551C5D3EDF001AFA8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 173DE72D1C5D3EDF001AFA8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 173DE7341C5D3EDF001AFA8C;
+			remoteInfo = Mademo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		173DE7351C5D3EDF001AFA8C /* Mademo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mademo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		173DE7381C5D3EDF001AFA8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		173DE73A1C5D3EDF001AFA8C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		173DE73D1C5D3EDF001AFA8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		173DE73F1C5D3EDF001AFA8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		173DE7421C5D3EDF001AFA8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		173DE7441C5D3EDF001AFA8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		173DE7491C5D3EDF001AFA8C /* MademoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MademoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		173DE74D1C5D3EDF001AFA8C /* MademoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MademoTests.swift; sourceTree = "<group>"; };
+		173DE74F1C5D3EDF001AFA8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		173DE7541C5D3EDF001AFA8C /* MademoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MademoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		173DE7581C5D3EDF001AFA8C /* MademoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MademoUITests.swift; sourceTree = "<group>"; };
+		173DE75A1C5D3EDF001AFA8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		173DE7321C5D3EDF001AFA8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		173DE7461C5D3EDF001AFA8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		173DE7511C5D3EDF001AFA8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		173DE72C1C5D3EDF001AFA8C = {
+			isa = PBXGroup;
+			children = (
+				173DE7371C5D3EDF001AFA8C /* Mademo */,
+				173DE74C1C5D3EDF001AFA8C /* MademoTests */,
+				173DE7571C5D3EDF001AFA8C /* MademoUITests */,
+				173DE7361C5D3EDF001AFA8C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		173DE7361C5D3EDF001AFA8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				173DE7351C5D3EDF001AFA8C /* Mademo.app */,
+				173DE7491C5D3EDF001AFA8C /* MademoTests.xctest */,
+				173DE7541C5D3EDF001AFA8C /* MademoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		173DE7371C5D3EDF001AFA8C /* Mademo */ = {
+			isa = PBXGroup;
+			children = (
+				173DE7381C5D3EDF001AFA8C /* AppDelegate.swift */,
+				173DE73A1C5D3EDF001AFA8C /* ViewController.swift */,
+				173DE73C1C5D3EDF001AFA8C /* Main.storyboard */,
+				173DE73F1C5D3EDF001AFA8C /* Assets.xcassets */,
+				173DE7411C5D3EDF001AFA8C /* LaunchScreen.storyboard */,
+				173DE7441C5D3EDF001AFA8C /* Info.plist */,
+			);
+			path = Mademo;
+			sourceTree = "<group>";
+		};
+		173DE74C1C5D3EDF001AFA8C /* MademoTests */ = {
+			isa = PBXGroup;
+			children = (
+				173DE74D1C5D3EDF001AFA8C /* MademoTests.swift */,
+				173DE74F1C5D3EDF001AFA8C /* Info.plist */,
+			);
+			path = MademoTests;
+			sourceTree = "<group>";
+		};
+		173DE7571C5D3EDF001AFA8C /* MademoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				173DE7581C5D3EDF001AFA8C /* MademoUITests.swift */,
+				173DE75A1C5D3EDF001AFA8C /* Info.plist */,
+			);
+			path = MademoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		173DE7341C5D3EDF001AFA8C /* Mademo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 173DE75D1C5D3EDF001AFA8C /* Build configuration list for PBXNativeTarget "Mademo" */;
+			buildPhases = (
+				173DE7311C5D3EDF001AFA8C /* Sources */,
+				173DE7321C5D3EDF001AFA8C /* Frameworks */,
+				173DE7331C5D3EDF001AFA8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mademo;
+			productName = Mademo;
+			productReference = 173DE7351C5D3EDF001AFA8C /* Mademo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		173DE7481C5D3EDF001AFA8C /* MademoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 173DE7601C5D3EDF001AFA8C /* Build configuration list for PBXNativeTarget "MademoTests" */;
+			buildPhases = (
+				173DE7451C5D3EDF001AFA8C /* Sources */,
+				173DE7461C5D3EDF001AFA8C /* Frameworks */,
+				173DE7471C5D3EDF001AFA8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				173DE74B1C5D3EDF001AFA8C /* PBXTargetDependency */,
+			);
+			name = MademoTests;
+			productName = MademoTests;
+			productReference = 173DE7491C5D3EDF001AFA8C /* MademoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		173DE7531C5D3EDF001AFA8C /* MademoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 173DE7631C5D3EDF001AFA8C /* Build configuration list for PBXNativeTarget "MademoUITests" */;
+			buildPhases = (
+				173DE7501C5D3EDF001AFA8C /* Sources */,
+				173DE7511C5D3EDF001AFA8C /* Frameworks */,
+				173DE7521C5D3EDF001AFA8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				173DE7561C5D3EDF001AFA8C /* PBXTargetDependency */,
+			);
+			name = MademoUITests;
+			productName = MademoUITests;
+			productReference = 173DE7541C5D3EDF001AFA8C /* MademoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		173DE72D1C5D3EDF001AFA8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = loremore;
+				TargetAttributes = {
+					173DE7341C5D3EDF001AFA8C = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					173DE7481C5D3EDF001AFA8C = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 173DE7341C5D3EDF001AFA8C;
+					};
+					173DE7531C5D3EDF001AFA8C = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 173DE7341C5D3EDF001AFA8C;
+					};
+				};
+			};
+			buildConfigurationList = 173DE7301C5D3EDF001AFA8C /* Build configuration list for PBXProject "Mademo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 173DE72C1C5D3EDF001AFA8C;
+			productRefGroup = 173DE7361C5D3EDF001AFA8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				173DE7341C5D3EDF001AFA8C /* Mademo */,
+				173DE7481C5D3EDF001AFA8C /* MademoTests */,
+				173DE7531C5D3EDF001AFA8C /* MademoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		173DE7331C5D3EDF001AFA8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				173DE7431C5D3EDF001AFA8C /* LaunchScreen.storyboard in Resources */,
+				173DE7401C5D3EDF001AFA8C /* Assets.xcassets in Resources */,
+				173DE73E1C5D3EDF001AFA8C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		173DE7471C5D3EDF001AFA8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		173DE7521C5D3EDF001AFA8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		173DE7311C5D3EDF001AFA8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				173DE73B1C5D3EDF001AFA8C /* ViewController.swift in Sources */,
+				173DE7391C5D3EDF001AFA8C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		173DE7451C5D3EDF001AFA8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				173DE74E1C5D3EDF001AFA8C /* MademoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		173DE7501C5D3EDF001AFA8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				173DE7591C5D3EDF001AFA8C /* MademoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		173DE74B1C5D3EDF001AFA8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 173DE7341C5D3EDF001AFA8C /* Mademo */;
+			targetProxy = 173DE74A1C5D3EDF001AFA8C /* PBXContainerItemProxy */;
+		};
+		173DE7561C5D3EDF001AFA8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 173DE7341C5D3EDF001AFA8C /* Mademo */;
+			targetProxy = 173DE7551C5D3EDF001AFA8C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		173DE73C1C5D3EDF001AFA8C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				173DE73D1C5D3EDF001AFA8C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		173DE7411C5D3EDF001AFA8C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				173DE7421C5D3EDF001AFA8C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		173DE75B1C5D3EDF001AFA8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		173DE75C1C5D3EDF001AFA8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		173DE75E1C5D3EDF001AFA8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Mademo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.loremore.Mademo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		173DE75F1C5D3EDF001AFA8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Mademo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.loremore.Mademo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		173DE7611C5D3EDF001AFA8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MademoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.loremore.MademoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mademo.app/Mademo";
+			};
+			name = Debug;
+		};
+		173DE7621C5D3EDF001AFA8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MademoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.loremore.MademoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mademo.app/Mademo";
+			};
+			name = Release;
+		};
+		173DE7641C5D3EDF001AFA8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MademoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.loremore.MademoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Mademo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		173DE7651C5D3EDF001AFA8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MademoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.loremore.MademoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Mademo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		173DE7301C5D3EDF001AFA8C /* Build configuration list for PBXProject "Mademo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				173DE75B1C5D3EDF001AFA8C /* Debug */,
+				173DE75C1C5D3EDF001AFA8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		173DE75D1C5D3EDF001AFA8C /* Build configuration list for PBXNativeTarget "Mademo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				173DE75E1C5D3EDF001AFA8C /* Debug */,
+				173DE75F1C5D3EDF001AFA8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		173DE7601C5D3EDF001AFA8C /* Build configuration list for PBXNativeTarget "MademoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				173DE7611C5D3EDF001AFA8C /* Debug */,
+				173DE7621C5D3EDF001AFA8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		173DE7631C5D3EDF001AFA8C /* Build configuration list for PBXNativeTarget "MademoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				173DE7641C5D3EDF001AFA8C /* Debug */,
+				173DE7651C5D3EDF001AFA8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 173DE72D1C5D3EDF001AFA8C /* Project object */;
+}
